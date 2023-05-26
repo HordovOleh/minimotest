@@ -49,12 +49,77 @@ font-family: 'Source Code Pro', monospace; */
 .cof {
     display: flex;
 }
-.fest {
+.fest{
     padding-left: 10%;
     padding-right: 10%;
 }
 .fest-img {
     width: 500px;
+    height: 333px;
     margin-bottom: 5%;
 }
+.bridge {
+    display: flex;
+}
+.lorem {
+    margin-right: 3%;
+}
+.signup {
+    background-color: rgb(241, 235, 235);
+}
+.sign {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+}
+.inp {
+    margin-left: 35%;
+    width: 30%;
+    margin-bottom: 5%;
+    height: 3vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color:rgb(241, 235, 235) ;
+}
+.bi-send {
+    margin-left: -5vw;
+    font-size: 4vw;
+    width: 3vw;
+    height: 3vw;
+    color: black;
+}
+.box {
+    display: flex;
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btn-lifestyle {
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.footer {
+    margin-left: 10%;
+
+}
+.footer,.footer-box,.svg-box {
+    display: flex;
+}
+.footer-text {
+    margin-right: 4%;
+}
+.footer-box {
+    margin-right: 70%;
+}
+.svg-box {
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
