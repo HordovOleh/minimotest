@@ -1,78 +1,70 @@
-
-
-
-
-@font-family:'Source Code Pro', monospace;
-
-@width: 100px;
-
-
-/* font-family: 'Chokokutai', cursive;
-font-family: 'Source Code Pro', monospace; */            
-
-.logo {
+@media screen and (min-width: 992px) {
+  .logo {
     margin-left: 10%;
-    font-family: 'Chokokutai', cursive;
+    font-family: "Chokokutai", cursive;
     font-size: 3vw;
-   
-}
-.navbar-nav {
+  }
+  .navbar-nav {
     font-size: 1.5vw;
-    font-family: 'Chokokutai', cursive;
+    font-family: "Chokokutai", cursive;
     margin-left: auto !important;
     margin-right: 10% !important;
-}
-.nav-item {
+  }
+  .nav-item {
     margin-right: 6% !important;
-}
-.hero-img {
+  }
+  .hero-img {
     height: 600px;
     width: 80%;
-   margin-left: 10%;
-}
-.photodiary {
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .photodiary {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 3%;
     margin-bottom: 5%;
-}
-.desc{
+  }
+  .desc {
     text-transform: uppercase;
     color: olivedrab;
-}
-.h3 {
-    font-family: 'Chokokutai', cursive;
+  }
+  .h3 {
+    font-family: "Chokokutai", cursive;
     font-size: 2vw;
     padding-top: 3%;
     padding-bottom: 3%;
-}
-.cof {
+  }
+  .cof {
+    gap: 5%;
     display: flex;
-}
-.fest{
+  }
+  .fest {
     padding-left: 10%;
     padding-right: 10%;
-}
-.fest-img {
+  }
+  .fest-img {
     width: 500px;
     height: 333px;
     margin-bottom: 5%;
-}
-.bridge {
+  }
+  .bridge {
+    gap: 5%;
     display: flex;
-}
-.lorem {
+  }
+  .lorem {
     margin-right: 3%;
-}
-.signup {
+  }
+  .signup {
+    width: 100%;
     background-color: rgb(241, 235, 235);
-}
-.sign {
+  }
+  .sign {
     padding-top: 5%;
     text-align: center;
     font-size: 3vw;
-}
-.inp {
+  }
+  .inp {
     margin-left: 35%;
     width: 30%;
     margin-bottom: 5%;
@@ -80,46 +72,223 @@ font-family: 'Source Code Pro', monospace; */
     border-top: none;
     border-right: none;
     border-left: none;
-    background-color:rgb(241, 235, 235) ;
-}
-.bi-send {
+    background-color: rgb(241, 235, 235);
+  }
+  .bi-send {
     margin-left: -5vw;
     font-size: 4vw;
     width: 3vw;
     height: 3vw;
     color: black;
-}
-.box {
+  }
+  .box {
+    gap: 5%;
     display: flex;
-    margin-top:5%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-}
-.btn-lifestyle {
+  }
+  .btn-lifestyle {
     margin-left: 45%;
     margin-top: 3%;
     margin-bottom: 5%;
-}
-.footer {
+  }
+  .footer {
     margin-left: 10%;
-
-}
-.footer,.footer-box,.svg-box {
+  }
+  .footer,
+  .footer-box,
+  .svg-box {
     display: flex;
-}
-.footer-text {
+  }
+  .footer-text {
     margin-right: 4%;
-}
-.footer-box {
+  }
+  .footer-box {
     margin-right: 70%;
-}
-.svg-box {
+  }
+  .svg-box {
     gap: 10px;
-}
+  }
 
-a {
+  a {
     text-decoration: none;
     color: black;
+  }
+  .banner {
+    display: none;
+  }
+  .post {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .text768 {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    font-family: "Chokokutai", cursive;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .fest-img {
+    width: 100%;
+  }
+  .hero-img {
+    margin-left: 3%;
+  }
+  .banner {
+    margin-left: 10%;
+  }
+  .photodiary {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .fest {
+    margin-left: 10%;
+  }
+  .about {
+    font-family: "Chokokutai", cursive;
+  }
+  .desc {
+    display: none;
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: black;
+  }
+  .sidebar {
+    margin-bottom: 5%;
+  }
+  .postlist {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
 
+  .h3 {
+    font-family: "Chokokutai", cursive;
+  }
+  .postlist a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  .text768 {
+    display: none;
+  }
+  .signup {
+    display: none;
+  }
+  .lifestyle-photo {
+    margin-left: 10%;
+  }
+  .footer {
+    margin-top: 5%;
+    display: flex;
+  }
+  .svg-box {
+    color: black;
+    margin-left: 50%;
+  }
+  .svg-box a {
+    color: black;
+  }
+  .footer-box {
+    margin-left: 10%;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  .header {
+    width: 100% !important;
+  }
+  .hero-img {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .logo {
+    font-family: "Chokokutai", cursive;
+    margin-left: 5%;
+  }
+  .navbar-nav {
+    font-family: "Chokokutai", cursive;
+    margin-left: 50%;
+  }
+  .photodiary {
+    margin-left: 10%;
+    width: 55%;
+    margin-top: 5%;
+  }
+  .h3 {
+    font-family: "Chokokutai", cursive;
+  }
+  .fest-img {
+    width: 450px;
+    margin-left: 90px;
+  }
+  .banner {
+    display: flex;
+  }
+  .sidebar {
+    width: 400px;
+  }
+  .about-img {
+    margin-top: 5%;
+    width: 65%;
+    margin-left: 15%;
+    height: 40%;
+  }
+  .about {
+    font-family: "Chokokutai", cursive;
+    margin-top: 3%;
+    margin-left: 35%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .fest-banner {
+    display: flex;
+  }
+  .post {
+    
+    margin-left: 10%;
+  }
+  .toppost {
+    font-size: 20px;
+  }
+  .toppost, .comment {
+    text-transform: uppercase;
+    color: goldenrod;
+  }
+  .post-item {
+    font-size: 16px;
+  }
+  .desc {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .none768 {
+    display: none;
+  }
+  img {
+    margin-bottom: 5%;
+  }
+  .italic{
+    font-style: italic;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+  }
+  .lorem {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+} */
